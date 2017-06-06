@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+  	h1 {
+      font-size:70px;
+      color: white;
+      background: black;
+      text-align: center;
+      }
+	  h2 {
+      text-align: left;
+      }
+    h3 {
+      text-align: center;
+      color: green;
+      
+    }
+    header {
+      background: black;
+      text-align: center;
+      background-size: cover;
+      color: white;
+      }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,1);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    button {
+      
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      h2 {
+        height: 300px;
+        width: 100px;      
+        font-size: 20px;
+        padding: 2px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <h1>
+      Welcome to shooting club
+    </h1>
+  </header>
+  <h2>
+    <div style="width:500;HEIGHT:500; padding :2px 10px 2px 80px;">Shooting club is club which established for people who like gun.s, or the cultural of guns. People who like hunting or shooting can join the shooting club to get information about where the shooting place is, when and where they can hunt deer or bears. The website should be photo-centric and the design should make it attractive for shooting fans to come.</div>
+    </h2>
+    <button>Favourite</button>
+    
+    <image src="http://i.imgur.com/Uwbl5WZ.jpg" style="position:absolute;top:190px;left:600px;right:20px;bottom:20px;height: 460px;">
+  
+  <h3>
+    <ul>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Report Problems</a></li>
+    </ul>
+  </h3>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
